@@ -22,3 +22,6 @@ We will have to manually inspect & adjust parameters, e.g. consider populations/
 - MAINLAND = 5
 - REEVESBY = 5
 - FRANKLIN = 5
+
+Data located in Jenna's FAST on Phoenix:
+/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastq
