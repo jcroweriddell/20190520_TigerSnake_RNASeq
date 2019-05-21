@@ -18,7 +18,10 @@ of each sample then create a combined gtf with location of those transcripts
 We will have to manually inspect & adjust parameters, e.g. consider populations/individuals, multiple layers of merging... 
 
 ## Samples
-TASMANIA = 5
-MAINLAND = 5
-REEVESBY = 5
-FRANKLIN = 5
+- TASMANIA = 5
+- MAINLAND = 5
+- REEVESBY = 5
+- FRANKLIN = 5
+
+Data located in Jenna's FAST on Phoenix:
+/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastq
