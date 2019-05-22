@@ -14,64 +14,31 @@
 
 
 # Load our modules
-module load HISAT2/2.0.5-foss-2016uofa
-module load HTSeq/0.6.1p1-intel-2015c-Python-2.7.11
-module load Java/1.8.0_71
 
 
-## Build reference index
-# Using hisat2
-hisat2-build /home/a1662801/ref_seq/tissues_contigs tissues_12_ref
-# Using bowtie2
-# bowtie-2 /path/to/tissues_contigs tissues_12_ref
-
-## Script for fastQC reads, align to ref, and adapter removal
+## Script for FastQC and adapter removal
 working=$(pwd)
 
-data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastq
+data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/
 output_dir=/20190520_TigerSnake_RNASeq/1_trimmedData/
-genome_prefix=/home/a1662801/ref_seq/tissues_12_ref change
 
-# Tiger snake GFF annotation file
-gff=
-
-# mkdir -p $output_dir
-
-# Run fastqc on each read pairs
+# Run FastQC on each read pair
 echo "starting fastqc"
 
-fastqc -o $output_dir/FastQC $data_dir/*.fastq.gz 
+fastqc -o $data_dir/FastQC $data_dir/fastq/*.fastq.gz 
 
 echo "finished fastqc"
 
-for FQGZ in $data_dir/*R1*.fastq.gz
+for FQGZ in $data_dir/fastq/*R1*.fastq.gz
  do
     # Everything indented (and before the "done") will be run
  
     # Get our raw data and trim
     echo "Starting Trimming of "$FQGZ" "
     AdapterRemoval --file1 $FQGZ --file2 ${FQGZ/R1/R2} \
-	 --output1  $output_dir/fastq/"$(basename $FQGZ _R1.fastq.gz)".trimed1.fq.gz \
-	 --output2  $output_dir/fastq/"$(basename $FQGZ _R1.fastq.gz)".trimed2.fq.gz \
+	 --output1  $output_dir/fastq/"$(basename $FQGZ _R1.fastq.gz)".trimmed1.fq.gz \
+	 --output2  $output_dir/fastq/"$(basename $FQGZ _R1.fastq.gz)".trimmed2.fq.gz \
 	 --gzip  --trimns --trimqualities --minlength 20
     echo "Finishing Trimming of "$FQGZ" "
-    
-    # Align our trimmed reads against our reference
-    echo "Starting Alignment of "$FQGZ" "
-    hisat2 -x $genome_prefix \
-	-1 $output_dir/"$(basename $FQGZ _R1.fastq.gz)".trimed1.fq.gz \
-	-2 $output_dir/"$(basename $FQGZ _R1.fastq.gz)".trimed2.fq.gz | \
-	samtools view -bS - > $output_dir/"$(basename $FQGZ _R1.fastq.gz)".hisat2_12tissues.bam
-    echo "Finishing Alignment of "$FQGZ" "
-
-    # Stats
-    samtools flagstat $output_dir/"$(basename $FQGZ _R1.fastq.gz)".hisat2_12tissues.bam
-    
-    # sort before HTSeq	
-    samtools sort -n $output_dir/"$(basename $FQGZ _R1.fastq.gz)".hisat2_12tissues.bam \
-	$output_dir/"$(basename $FQGZ _R1.fastq.gz)".hisat2_12tissues.sorted
-
-    # HTSeq (THIS IS NOT FPKM!!! Its Raw counts that are NOT normalised)
-    htseq-count -f bam  "$(basename $FQGZ _R1.fastq.gz)".hitsat2_12tissues.sorted.bam $gff
-   
+       
 done
