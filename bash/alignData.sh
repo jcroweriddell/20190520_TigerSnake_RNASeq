@@ -4,8 +4,8 @@
 #SBATCH -n 8            # number of cores
 #SBATCH --time=24:00:00 # time allocation, which has the format (D-HH:MM)
 #SBATCH --mem=32GB      # memory pool for all cores (here set to 32 GB)
-#SBATCH -o /fast/users/a1662801/20190520_TigerSnake_RNASeq/slurm/trimData_%j.out
-#SBATCH -e /fast/users/a1662801/20190520_TigerSnake_RNASeq/slurm/trimData_%j.err
+#SBATCH -o /fast/users/a1662801/20190520_TigerSnake_RNASeq/slurm/alignData_%j.out
+#SBATCH -e /fast/users/a1662801/20190520_TigerSnake_RNASeq/slurm/alignData_%j.err
 #SBATCH --mail-type=END    # Type of email notifications will be sent (here set to END, which means an email will be sent when the job is done)
 #SBATCH --mail-type=FAIL   # Type of email notifications will be sent (here set to FAIL, which means an email will be sent when the job is fail to complete)
 #SBATCH --mail-user=jenna.crowe-riddell@adelaide.edu.au  # Email to which notification will be sent
@@ -36,14 +36,7 @@ gff=/fast/users/a1662801/20190520_TigerSnake_RNASeq/3_genomeRef/gff/GCF_90051872
 
 # mkdir -p $output_dir
 
-# Run fastqc on each read pairs
-echo "starting fastqc"
-
-fastqc -o $data_dir/FastQC $data_dir/fastq/*.fastq.gz 
-
-echo "finished fastqc"
-
-for FQGZ in $data_dir/fastq/*R1*.fastq.gz
+for FQGZ in $data_dir/fastq/*R1*.fq.gz
  do
     # Everything indented (and before the "done") will be run
     
