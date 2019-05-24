@@ -20,25 +20,25 @@ module load AdapterRemoval/2.2.0-foss-2016uofa
 ## Script for FastQC and adapter removal
 working=$(pwd)
 
-data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/
+data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastq/
 output_dir=/20190520_TigerSnake_RNASeq/1_trimmedData/
 
 # Run FastQC on each read pair
-echo "Starting fastqc"
+#echo "Starting fastqc"
 
-fastqc -o $data_dir/FastQC $data_dir/fastq/*.fastq.gz 
+#fastqc -o $data_dir/FastQC $data_dir/fastq/*.fastq.gz 
 
-echo "Finished fastqc"
+#echo "Finished fastqc"
 
-for FQGZ in $data_dir/fastq/*R1*.fastq.gz
+for FQGZ in $data_dir/*R1*.fastq.gz
  do
     # Everything indented (and before the "done") will be run
  
     # Get our raw data and trim
     echo "Starting trimming of "$FQGZ" "
     AdapterRemoval --file1 $FQGZ --file2 ${FQGZ/R1/R2} \
-	 --output1  $output_dir/fastq/"$(basename $FQGZ _R1.fastq.gz)".trimmed1.fq.gz \
-	 --output2  $output_dir/fastq/"$(basename $FQGZ _R1.fastq.gz)".trimmed2.fq.gz \
+	 --output1  $output_dir/"$(basename $FQGZ _R1.fastq.gz)".trimmed1.fq.gz \
+	 --output2  $output_dir/"$(basename $FQGZ _R1.fastq.gz)".trimmed2.fq.gz \
 	 --gzip  --trimns --trimqualities --minlength 20
     echo "Finished trimming of "$FQGZ" "
        
