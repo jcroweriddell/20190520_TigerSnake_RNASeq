@@ -2,6 +2,7 @@
 *tar.gz
 *fq.gz
 *fastq.gz
+*fna
 *truncated.gz
 *discarded.gz
 *sam
