@@ -20,5 +20,5 @@ module load Java/1.8.0_71
 
 ## Build reference index
 # Using hisat2
-hisat2-build /fast/users/a1662801/20190520_TigerSnake_RNASeq/3_genomeRef/fastq/GCF_900518725.1_TS10Xv2-PRI_genomic.fna.gz tigerSnakeRef
+hisat2-build /fast/users/a1662801/20190520_TigerSnake_RNASeq/3_genomeRef/fastq/GCF_900518725.1_TS10Xv2-PRI_genomic.fna tigerSnakeRef
 
