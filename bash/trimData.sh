@@ -2,7 +2,7 @@
 #SBATCH -p batch        # partition (this is the queue your job will be added to) 
 #SBATCH -N 1            # number of nodes (due to the nature of sequential processing, here uses single node)
 #SBATCH -n 8            # number of cores
-#SBATCH --time=24:00:00 # time allocation, which has the format (D-HH:MM)
+#SBATCH --time=1:00:00 # time allocation, which has the format (D-HH:MM)
 #SBATCH --mem=32GB      # memory pool for all cores (here set to 32 GB)
 #SBATCH -o /fast/users/a1662801/20190520_TigerSnake_RNASeq/slurm/trimData_%j.out
 #SBATCH -e /fast/users/a1662801/20190520_TigerSnake_RNASeq/slurm/trimData_%j.err
@@ -12,31 +12,12 @@
 
 ## DESCRIPTION: script generate gene expression profiles for each venom sample
 
-
 # Load  modules
-module load fastqc/0.11.4
-<<<<<<< HEAD
 module load AdapterRemoval
-=======
-module load AdapterRemoval/2.2.0-foss-2016uofa
->>>>>>> 5ec0f217af2dd1ae3ee30afab9f33136dd63ff5c
 
 ## Script for FastQC and adapter removal
-working=$(pwd)
-
-data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastq/
-<<<<<<< HEAD
+data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastqRemaining
 output_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/1_trimmedData/fastq
-=======
-output_dir=/20190520_TigerSnake_RNASeq/1_trimmedData/
->>>>>>> 5ec0f217af2dd1ae3ee30afab9f33136dd63ff5c
-
-# Run FastQC on each read pair
-#echo "Starting fastqc"
-
-#fastqc -o $data_dir/FastQC $data_dir/fastq/*.fastq.gz 
-
-#echo "Finished fastqc"
 
 for FQGZ in $data_dir/*R1*.fastq.gz
  do
@@ -45,13 +26,8 @@ for FQGZ in $data_dir/*R1*.fastq.gz
     # Get our raw data and trim
     echo "Starting trimming of "$FQGZ" "
     AdapterRemoval --file1 $FQGZ --file2 ${FQGZ/R1/R2} \
-<<<<<<< HEAD
 	 --output1  $output_dir"/$(basename $FQGZ _R1.fastq.gz)".trimmed1.fq.gz \
          --output2  $output_dir"/$(basename $FQGZ _R1.fastq.gz)".trimmed2.fq.gz \
-=======
-	 --output1  $output_dir/"$(basename $FQGZ _R1.fastq.gz)".trimmed1.fq.gz \
-	 --output2  $output_dir/"$(basename $FQGZ _R1.fastq.gz)".trimmed2.fq.gz \
->>>>>>> 5ec0f217af2dd1ae3ee30afab9f33136dd63ff5c
 	 --gzip  --trimns --trimqualities --minlength 20
     echo "Finished trimming of "$FQGZ" "
        
