@@ -17,18 +17,7 @@ module load AdapterRemoval
 
 ## Script for FastQC and adapter removal
 data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/0_rawData/fastqRemaining
-output_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/1_trimmedData/fastq
 
-for FQGZ in $data_dir/*R1*.fastq.gz
- do
-    # Everything indented (and before the "done") will be run
- 
-    # Get our raw data and trim
-    echo "Starting trimming of "$FQGZ" "
-    AdapterRemoval --file1 $FQGZ --file2 ${FQGZ/R1/R2} \
-	 --output1  $output_dir"/$(basename $FQGZ _R1.fastq.gz)".trimmed1.fq.gz \
-         --output2  $output_dir"/$(basename $FQGZ _R1.fastq.gz)".trimmed2.fq.gz \
-	 --gzip  --trimns --trimqualities --minlength 20
-    echo "Finished trimming of "$FQGZ" "
-       
-done
+AdapterRemoval --file1 $data_dir/R14_REEVESBYISLAND_R1.fastq.gz --file2 $data_dir/R14_REEVESBYISLAND_R2.fastq.gz \
+--gzip  --trimns --trimqualities --minlength 20
+

@@ -1,0 +1,12 @@
+PASS	Basic Statistics	342_REEVESBYISLAND_R2.fastq.gz
+PASS	Per base sequence quality	342_REEVESBYISLAND_R2.fastq.gz
+PASS	Per tile sequence quality	342_REEVESBYISLAND_R2.fastq.gz
+PASS	Per sequence quality scores	342_REEVESBYISLAND_R2.fastq.gz
+FAIL	Per base sequence content	342_REEVESBYISLAND_R2.fastq.gz
+WARN	Per sequence GC content	342_REEVESBYISLAND_R2.fastq.gz
+PASS	Per base N content	342_REEVESBYISLAND_R2.fastq.gz
+PASS	Sequence Length Distribution	342_REEVESBYISLAND_R2.fastq.gz
+FAIL	Sequence Duplication Levels	342_REEVESBYISLAND_R2.fastq.gz
+WARN	Overrepresented sequences	342_REEVESBYISLAND_R2.fastq.gz
+PASS	Adapter Content	342_REEVESBYISLAND_R2.fastq.gz
+FAIL	Kmer Content	342_REEVESBYISLAND_R2.fastq.gz

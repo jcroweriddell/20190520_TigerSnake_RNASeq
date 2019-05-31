@@ -1,0 +1,12 @@
+PASS	Basic Statistics	483B_FRANKLINISLAND_R2.fastq.gz
+PASS	Per base sequence quality	483B_FRANKLINISLAND_R2.fastq.gz
+PASS	Per tile sequence quality	483B_FRANKLINISLAND_R2.fastq.gz
+PASS	Per sequence quality scores	483B_FRANKLINISLAND_R2.fastq.gz
+FAIL	Per base sequence content	483B_FRANKLINISLAND_R2.fastq.gz
+WARN	Per sequence GC content	483B_FRANKLINISLAND_R2.fastq.gz
+PASS	Per base N content	483B_FRANKLINISLAND_R2.fastq.gz
+PASS	Sequence Length Distribution	483B_FRANKLINISLAND_R2.fastq.gz
+FAIL	Sequence Duplication Levels	483B_FRANKLINISLAND_R2.fastq.gz
+FAIL	Overrepresented sequences	483B_FRANKLINISLAND_R2.fastq.gz
+FAIL	Adapter Content	483B_FRANKLINISLAND_R2.fastq.gz
+FAIL	Kmer Content	483B_FRANKLINISLAND_R2.fastq.gz

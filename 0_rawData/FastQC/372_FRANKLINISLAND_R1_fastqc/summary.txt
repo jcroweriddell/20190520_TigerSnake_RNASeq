@@ -1,0 +1,12 @@
+PASS	Basic Statistics	372_FRANKLINISLAND_R1.fastq.gz
+PASS	Per base sequence quality	372_FRANKLINISLAND_R1.fastq.gz
+PASS	Per tile sequence quality	372_FRANKLINISLAND_R1.fastq.gz
+PASS	Per sequence quality scores	372_FRANKLINISLAND_R1.fastq.gz
+FAIL	Per base sequence content	372_FRANKLINISLAND_R1.fastq.gz
+FAIL	Per sequence GC content	372_FRANKLINISLAND_R1.fastq.gz
+PASS	Per base N content	372_FRANKLINISLAND_R1.fastq.gz
+PASS	Sequence Length Distribution	372_FRANKLINISLAND_R1.fastq.gz
+FAIL	Sequence Duplication Levels	372_FRANKLINISLAND_R1.fastq.gz
+WARN	Overrepresented sequences	372_FRANKLINISLAND_R1.fastq.gz
+PASS	Adapter Content	372_FRANKLINISLAND_R1.fastq.gz
+FAIL	Kmer Content	372_FRANKLINISLAND_R1.fastq.gz

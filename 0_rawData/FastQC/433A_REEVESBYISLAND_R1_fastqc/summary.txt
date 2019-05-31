@@ -1,0 +1,12 @@
+PASS	Basic Statistics	433A_REEVESBYISLAND_R1.fastq.gz
+PASS	Per base sequence quality	433A_REEVESBYISLAND_R1.fastq.gz
+PASS	Per tile sequence quality	433A_REEVESBYISLAND_R1.fastq.gz
+PASS	Per sequence quality scores	433A_REEVESBYISLAND_R1.fastq.gz
+FAIL	Per base sequence content	433A_REEVESBYISLAND_R1.fastq.gz
+FAIL	Per sequence GC content	433A_REEVESBYISLAND_R1.fastq.gz
+PASS	Per base N content	433A_REEVESBYISLAND_R1.fastq.gz
+PASS	Sequence Length Distribution	433A_REEVESBYISLAND_R1.fastq.gz
+FAIL	Sequence Duplication Levels	433A_REEVESBYISLAND_R1.fastq.gz
+WARN	Overrepresented sequences	433A_REEVESBYISLAND_R1.fastq.gz
+FAIL	Adapter Content	433A_REEVESBYISLAND_R1.fastq.gz
+FAIL	Kmer Content	433A_REEVESBYISLAND_R1.fastq.gz

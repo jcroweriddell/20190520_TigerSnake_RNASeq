@@ -1,0 +1,12 @@
+PASS	Basic Statistics	313C_MAINLAND_SA_R2.fastq.gz
+PASS	Per base sequence quality	313C_MAINLAND_SA_R2.fastq.gz
+WARN	Per tile sequence quality	313C_MAINLAND_SA_R2.fastq.gz
+PASS	Per sequence quality scores	313C_MAINLAND_SA_R2.fastq.gz
+FAIL	Per base sequence content	313C_MAINLAND_SA_R2.fastq.gz
+WARN	Per sequence GC content	313C_MAINLAND_SA_R2.fastq.gz
+PASS	Per base N content	313C_MAINLAND_SA_R2.fastq.gz
+PASS	Sequence Length Distribution	313C_MAINLAND_SA_R2.fastq.gz
+FAIL	Sequence Duplication Levels	313C_MAINLAND_SA_R2.fastq.gz
+WARN	Overrepresented sequences	313C_MAINLAND_SA_R2.fastq.gz
+PASS	Adapter Content	313C_MAINLAND_SA_R2.fastq.gz
+FAIL	Kmer Content	313C_MAINLAND_SA_R2.fastq.gz

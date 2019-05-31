@@ -1,0 +1,12 @@
+PASS	Basic Statistics	101A_TASMANIA_R2.fastq.gz
+PASS	Per base sequence quality	101A_TASMANIA_R2.fastq.gz
+PASS	Per tile sequence quality	101A_TASMANIA_R2.fastq.gz
+PASS	Per sequence quality scores	101A_TASMANIA_R2.fastq.gz
+FAIL	Per base sequence content	101A_TASMANIA_R2.fastq.gz
+FAIL	Per sequence GC content	101A_TASMANIA_R2.fastq.gz
+PASS	Per base N content	101A_TASMANIA_R2.fastq.gz
+PASS	Sequence Length Distribution	101A_TASMANIA_R2.fastq.gz
+FAIL	Sequence Duplication Levels	101A_TASMANIA_R2.fastq.gz
+WARN	Overrepresented sequences	101A_TASMANIA_R2.fastq.gz
+FAIL	Adapter Content	101A_TASMANIA_R2.fastq.gz
+FAIL	Kmer Content	101A_TASMANIA_R2.fastq.gz

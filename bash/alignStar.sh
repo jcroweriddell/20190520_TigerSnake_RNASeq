@@ -20,9 +20,9 @@ data_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/1_trimmedData/fastq
 output_dir=/fast/users/a1662801/20190520_TigerSnake_RNASeq/2_alignedData/bam
 
 ## Align reads using STAR
-
-#TrimmedReads /fast/users/a1662801/20190520_TigerSnake_RNASeq/1_trimmedData/fastq/ 
+ 
 ## Previous step: build genome indices using STAR generate genome and annotation gtf file
+
 for FQGZ in ${data_dir}/*trimmed1.fq.gz
  do
     # Find each read for paired end reads

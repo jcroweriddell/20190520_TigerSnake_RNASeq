@@ -1,0 +1,12 @@
+PASS	Basic Statistics	MV2_MAINLAND_R1.fastq.gz
+PASS	Per base sequence quality	MV2_MAINLAND_R1.fastq.gz
+PASS	Per tile sequence quality	MV2_MAINLAND_R1.fastq.gz
+PASS	Per sequence quality scores	MV2_MAINLAND_R1.fastq.gz
+FAIL	Per base sequence content	MV2_MAINLAND_R1.fastq.gz
+WARN	Per sequence GC content	MV2_MAINLAND_R1.fastq.gz
+PASS	Per base N content	MV2_MAINLAND_R1.fastq.gz
+PASS	Sequence Length Distribution	MV2_MAINLAND_R1.fastq.gz
+FAIL	Sequence Duplication Levels	MV2_MAINLAND_R1.fastq.gz
+WARN	Overrepresented sequences	MV2_MAINLAND_R1.fastq.gz
+PASS	Adapter Content	MV2_MAINLAND_R1.fastq.gz
+FAIL	Kmer Content	MV2_MAINLAND_R1.fastq.gz

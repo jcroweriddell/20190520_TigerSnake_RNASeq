@@ -1,0 +1,12 @@
+PASS	Basic Statistics	352C_MAINLAND_VIC_R2.fastq.gz
+PASS	Per base sequence quality	352C_MAINLAND_VIC_R2.fastq.gz
+WARN	Per tile sequence quality	352C_MAINLAND_VIC_R2.fastq.gz
+PASS	Per sequence quality scores	352C_MAINLAND_VIC_R2.fastq.gz
+FAIL	Per base sequence content	352C_MAINLAND_VIC_R2.fastq.gz
+FAIL	Per sequence GC content	352C_MAINLAND_VIC_R2.fastq.gz
+PASS	Per base N content	352C_MAINLAND_VIC_R2.fastq.gz
+PASS	Sequence Length Distribution	352C_MAINLAND_VIC_R2.fastq.gz
+FAIL	Sequence Duplication Levels	352C_MAINLAND_VIC_R2.fastq.gz
+FAIL	Overrepresented sequences	352C_MAINLAND_VIC_R2.fastq.gz
+PASS	Adapter Content	352C_MAINLAND_VIC_R2.fastq.gz
+FAIL	Kmer Content	352C_MAINLAND_VIC_R2.fastq.gz

@@ -8,8 +8,8 @@ Vick Thompson
 
 ## To do list
 - [X] Upload data
-- [ ] Trim reads
-- [ ] Align transcripts
+- [X] Trim reads
+- [X] Align transcripts
 - [ ] Run Stringtie using ggf file for TS genome*
 - [ ] DE analysis
 

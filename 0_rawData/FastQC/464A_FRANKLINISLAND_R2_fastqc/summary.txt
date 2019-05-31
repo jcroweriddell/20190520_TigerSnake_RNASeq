@@ -1,0 +1,12 @@
+PASS	Basic Statistics	464A_FRANKLINISLAND_R2.fastq.gz
+PASS	Per base sequence quality	464A_FRANKLINISLAND_R2.fastq.gz
+PASS	Per tile sequence quality	464A_FRANKLINISLAND_R2.fastq.gz
+PASS	Per sequence quality scores	464A_FRANKLINISLAND_R2.fastq.gz
+FAIL	Per base sequence content	464A_FRANKLINISLAND_R2.fastq.gz
+WARN	Per sequence GC content	464A_FRANKLINISLAND_R2.fastq.gz
+PASS	Per base N content	464A_FRANKLINISLAND_R2.fastq.gz
+PASS	Sequence Length Distribution	464A_FRANKLINISLAND_R2.fastq.gz
+FAIL	Sequence Duplication Levels	464A_FRANKLINISLAND_R2.fastq.gz
+WARN	Overrepresented sequences	464A_FRANKLINISLAND_R2.fastq.gz
+FAIL	Adapter Content	464A_FRANKLINISLAND_R2.fastq.gz
+FAIL	Kmer Content	464A_FRANKLINISLAND_R2.fastq.gz
