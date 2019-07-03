@@ -1,0 +1,294 @@
+101A_TASMANIA
+                          Number of input reads |	31809371
+                      Average input read length |	271
+                   Uniquely mapped reads number |	15625763
+                        Uniquely mapped reads % |	49.12%
+             % of reads mapped to multiple loci |	4.97%
+                 % of reads unmapped: too short |	45.53%
+101B_TASMANIA
+                          Number of input reads |	32239547
+                      Average input read length |	271
+                   Uniquely mapped reads number |	16038636
+                        Uniquely mapped reads % |	49.75%
+             % of reads mapped to multiple loci |	5.07%
+                 % of reads unmapped: too short |	44.83%
+101C_TASMANIA
+                          Number of input reads |	34773680
+                      Average input read length |	268
+                   Uniquely mapped reads number |	17411128
+                        Uniquely mapped reads % |	50.07%
+             % of reads mapped to multiple loci |	5.05%
+                 % of reads unmapped: too short |	44.49%
+103_TASMANIA
+                          Number of input reads |	49913691
+                      Average input read length |	197
+                   Uniquely mapped reads number |	29299614
+                        Uniquely mapped reads % |	58.70%
+             % of reads mapped to multiple loci |	6.15%
+                 % of reads unmapped: too short |	34.92%
+105A_TASMANIA
+                          Number of input reads |	41928194
+                      Average input read length |	276
+                   Uniquely mapped reads number |	23630085
+                        Uniquely mapped reads % |	56.36%
+             % of reads mapped to multiple loci |	5.48%
+                 % of reads unmapped: too short |	37.99%
+105B_TASMANIA
+                          Number of input reads |	36691501
+                      Average input read length |	276
+                   Uniquely mapped reads number |	20933233
+                        Uniquely mapped reads % |	57.05%
+             % of reads mapped to multiple loci |	4.95%
+                 % of reads unmapped: too short |	37.84%
+105C_TASMANIA
+                          Number of input reads |	40882396
+                      Average input read length |	277
+                   Uniquely mapped reads number |	21995357
+                        Uniquely mapped reads % |	53.80%
+             % of reads mapped to multiple loci |	5.12%
+                 % of reads unmapped: too short |	40.92%
+107A_TASMANIA
+                          Number of input reads |	33581987
+                      Average input read length |	273
+                   Uniquely mapped reads number |	19278198
+                        Uniquely mapped reads % |	57.41%
+             % of reads mapped to multiple loci |	5.82%
+                 % of reads unmapped: too short |	36.61%
+107B_TASMANIA
+                          Number of input reads |	31287175
+                      Average input read length |	276
+                   Uniquely mapped reads number |	17161413
+                        Uniquely mapped reads % |	54.85%
+             % of reads mapped to multiple loci |	5.46%
+                 % of reads unmapped: too short |	39.50%
+107C_TASMANIA
+                          Number of input reads |	29872122
+                      Average input read length |	275
+                   Uniquely mapped reads number |	16947252
+                        Uniquely mapped reads % |	56.73%
+             % of reads mapped to multiple loci |	5.70%
+                 % of reads unmapped: too short |	37.40%
+109_TASMANIA
+                          Number of input reads |	49472698
+                      Average input read length |	197
+                   Uniquely mapped reads number |	28480492
+                        Uniquely mapped reads % |	57.57%
+             % of reads mapped to multiple loci |	5.66%
+                 % of reads unmapped: too short |	36.58%
+308_MAINLAND
+                          Number of input reads |	47696518
+                      Average input read length |	198
+                   Uniquely mapped reads number |	28334967
+                        Uniquely mapped reads % |	59.41%
+             % of reads mapped to multiple loci |	7.29%
+                 % of reads unmapped: too short |	33.12%
+313A_MAINLAND_SA
+                          Number of input reads |	30203446
+                      Average input read length |	198
+                   Uniquely mapped reads number |	19642660
+                        Uniquely mapped reads % |	65.03%
+             % of reads mapped to multiple loci |	4.61%
+                 % of reads unmapped: too short |	30.12%
+313B_MAINLAND_SA
+                          Number of input reads |	30310829
+                      Average input read length |	198
+                   Uniquely mapped reads number |	19694603
+                        Uniquely mapped reads % |	64.98%
+             % of reads mapped to multiple loci |	4.46%
+                 % of reads unmapped: too short |	30.32%
+313C_MAINLAND_SA
+                          Number of input reads |	29605136
+                      Average input read length |	198
+                   Uniquely mapped reads number |	18491041
+                        Uniquely mapped reads % |	62.46%
+             % of reads mapped to multiple loci |	7.91%
+                 % of reads unmapped: too short |	29.38%
+342_REEVESBYISLAND
+                          Number of input reads |	37753521
+                      Average input read length |	198
+                   Uniquely mapped reads number |	26589436
+                        Uniquely mapped reads % |	70.43%
+             % of reads mapped to multiple loci |	5.27%
+                 % of reads unmapped: too short |	23.96%
+352A_MAINLAND_VIC
+                          Number of input reads |	29036107
+                      Average input read length |	198
+                   Uniquely mapped reads number |	17952091
+                        Uniquely mapped reads % |	61.83%
+             % of reads mapped to multiple loci |	5.78%
+                 % of reads unmapped: too short |	32.16%
+352B_MAINLAND_VIC
+                          Number of input reads |	28268354
+                      Average input read length |	197
+                   Uniquely mapped reads number |	18388303
+                        Uniquely mapped reads % |	65.05%
+             % of reads mapped to multiple loci |	6.27%
+                 % of reads unmapped: too short |	28.37%
+352C_MAINLAND_VIC
+                          Number of input reads |	28548432
+                      Average input read length |	198
+                   Uniquely mapped reads number |	18003717
+                        Uniquely mapped reads % |	63.06%
+             % of reads mapped to multiple loci |	6.52%
+                 % of reads unmapped: too short |	30.13%
+372_FRANKLINISLAND
+                          Number of input reads |	40632541
+                      Average input read length |	198
+                   Uniquely mapped reads number |	25738782
+                        Uniquely mapped reads % |	63.35%
+             % of reads mapped to multiple loci |	5.05%
+                 % of reads unmapped: too short |	31.20%
+381_FRANKLINISLAND
+                          Number of input reads |	44173549
+                      Average input read length |	198
+                   Uniquely mapped reads number |	28981555
+                        Uniquely mapped reads % |	65.61%
+             % of reads mapped to multiple loci |	5.69%
+                 % of reads unmapped: too short |	28.25%
+403A_REEVESBYISLAND
+                          Number of input reads |	38311170
+                      Average input read length |	276
+                   Uniquely mapped reads number |	21316437
+                        Uniquely mapped reads % |	55.64%
+             % of reads mapped to multiple loci |	4.20%
+                 % of reads unmapped: too short |	40.01%
+403B_REEVESBYISLAND
+                          Number of input reads |	28478558
+                      Average input read length |	275
+                   Uniquely mapped reads number |	14500780
+                        Uniquely mapped reads % |	50.92%
+             % of reads mapped to multiple loci |	3.95%
+                 % of reads unmapped: too short |	44.95%
+403C_REEVESBYISLAND
+                          Number of input reads |	31202032
+                      Average input read length |	273
+                   Uniquely mapped reads number |	18296884
+                        Uniquely mapped reads % |	58.64%
+             % of reads mapped to multiple loci |	4.62%
+                 % of reads unmapped: too short |	36.50%
+425A_REEVESBYISLAND
+                          Number of input reads |	41331523
+                      Average input read length |	276
+                   Uniquely mapped reads number |	25152654
+                        Uniquely mapped reads % |	60.86%
+             % of reads mapped to multiple loci |	4.49%
+                 % of reads unmapped: too short |	34.40%
+425B_REEVESBYISLAND
+                          Number of input reads |	31168144
+                      Average input read length |	277
+                   Uniquely mapped reads number |	19000580
+                        Uniquely mapped reads % |	60.96%
+             % of reads mapped to multiple loci |	4.62%
+                 % of reads unmapped: too short |	34.15%
+425C_REEVESBYISLAND
+                          Number of input reads |	36390410
+                      Average input read length |	275
+                   Uniquely mapped reads number |	22058703
+                        Uniquely mapped reads % |	60.62%
+             % of reads mapped to multiple loci |	4.47%
+                 % of reads unmapped: too short |	34.65%
+433A_REEVESBYISLAND
+                          Number of input reads |	31944895
+                      Average input read length |	276
+                   Uniquely mapped reads number |	18252434
+                        Uniquely mapped reads % |	57.14%
+             % of reads mapped to multiple loci |	4.80%
+                 % of reads unmapped: too short |	37.80%
+433B_REEVESBYISLAND
+                          Number of input reads |	28416269
+                      Average input read length |	274
+                   Uniquely mapped reads number |	16639633
+                        Uniquely mapped reads % |	58.56%
+             % of reads mapped to multiple loci |	4.94%
+                 % of reads unmapped: too short |	36.23%
+433C_REEVESBYISLAND
+                          Number of input reads |	32748368
+                      Average input read length |	272
+                   Uniquely mapped reads number |	17732299
+                        Uniquely mapped reads % |	54.15%
+             % of reads mapped to multiple loci |	5.04%
+                 % of reads unmapped: too short |	40.59%
+452A_FRANKLINISLAND
+                          Number of input reads |	37578630
+                      Average input read length |	274
+                   Uniquely mapped reads number |	23092746
+                        Uniquely mapped reads % |	61.45%
+             % of reads mapped to multiple loci |	4.40%
+                 % of reads unmapped: too short |	33.74%
+452B_FRANKLINISLAND
+                          Number of input reads |	31025709
+                      Average input read length |	275
+                   Uniquely mapped reads number |	20450034
+                        Uniquely mapped reads % |	65.91%
+             % of reads mapped to multiple loci |	4.12%
+                 % of reads unmapped: too short |	29.51%
+452C_FRANKLINISLAND
+                          Number of input reads |	30023149
+                      Average input read length |	273
+                   Uniquely mapped reads number |	18932232
+                        Uniquely mapped reads % |	63.06%
+             % of reads mapped to multiple loci |	4.76%
+                 % of reads unmapped: too short |	31.79%
+464A_FRANKLINISLAND
+                          Number of input reads |	35496521
+                      Average input read length |	274
+                   Uniquely mapped reads number |	22920544
+                        Uniquely mapped reads % |	64.57%
+             % of reads mapped to multiple loci |	3.87%
+                 % of reads unmapped: too short |	31.11%
+464B_FRANKLINISLAND
+                          Number of input reads |	27326379
+                      Average input read length |	274
+                   Uniquely mapped reads number |	17434615
+                        Uniquely mapped reads % |	63.80%
+             % of reads mapped to multiple loci |	4.50%
+                 % of reads unmapped: too short |	31.30%
+464C_FRANKLINISLAND
+                          Number of input reads |	34690276
+                      Average input read length |	272
+                   Uniquely mapped reads number |	22761753
+                        Uniquely mapped reads % |	65.61%
+             % of reads mapped to multiple loci |	5.56%
+                 % of reads unmapped: too short |	28.37%
+483A_FRANKLINISLAND
+                          Number of input reads |	34294395
+                      Average input read length |	273
+                   Uniquely mapped reads number |	21450464
+                        Uniquely mapped reads % |	62.55%
+             % of reads mapped to multiple loci |	4.47%
+                 % of reads unmapped: too short |	32.57%
+483B_FRANKLINISLAND
+                          Number of input reads |	29811785
+                      Average input read length |	276
+                   Uniquely mapped reads number |	18975211
+                        Uniquely mapped reads % |	63.65%
+             % of reads mapped to multiple loci |	3.94%
+                 % of reads unmapped: too short |	32.01%
+483C_FRANKLINISLAND
+                          Number of input reads |	36043419
+                      Average input read length |	278
+                   Uniquely mapped reads number |	23189916
+                        Uniquely mapped reads % |	64.34%
+             % of reads mapped to multiple loci |	4.18%
+                 % of reads unmapped: too short |	31.07%
+MV1_MAINLAND
+                          Number of input reads |	50149533
+                      Average input read length |	198
+                   Uniquely mapped reads number |	33356440
+                        Uniquely mapped reads % |	66.51%
+             % of reads mapped to multiple loci |	5.01%
+                 % of reads unmapped: too short |	28.12%
+MV2_MAINLAND
+                          Number of input reads |	41715640
+                      Average input read length |	198
+                   Uniquely mapped reads number |	27041135
+                        Uniquely mapped reads % |	64.82%
+             % of reads mapped to multiple loci |	5.28%
+                 % of reads unmapped: too short |	29.57%
+R14_REEVESBYISLAND
+                          Number of input reads |	43210428
+                      Average input read length |	196
+                   Uniquely mapped reads number |	25046197
+                        Uniquely mapped reads % |	57.96%
+             % of reads mapped to multiple loci |	5.17%
+                 % of reads unmapped: too short |	36.67%
